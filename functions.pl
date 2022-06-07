@@ -1,13 +1,13 @@
-flight(["Oporto"], ["Madrid"], ["250"], ["Summer"], ["economy"]).
-flight(["Oporto"], ["Madrid"], ["500"], ["Summer"], ["executive"]).
-flight(["Oporto"], ["Madrid"], ["250"], ["Spring"], ["economy"]).
-flight(["Oporto"], ["Madrid"], ["500"], ["Spring"], ["executive"]).
-flight(["Oporto"], ["Madrid"], ["250"], ["Winter"], ["economy"]).
-flight(["Oporto"], ["Madrid"], ["500"], ["Winter"], ["executive"]).
-flight(["Oporto"], ["Madrid"], ["250"], ["Autumn"], ["economy"]).
-flight(["Oporto"], ["Madrid"], ["500"], ["Autumn"], ["executive"]).
+%flight(["Oporto"], ["Madrid"], ["250"], ["Summer"], ["economy"]).
+%flight(["Oporto"], ["Madrid"], ["500"], ["Summer"], ["executive"]).
+%flight(["Oporto"], ["Madrid"], ["250"], ["Spring"], ["economy"]).
+%flight(["Oporto"], ["Madrid"], ["500"], ["Spring"], ["executive"]).
+%flight(["Oporto"], ["Madrid"], ["250"], ["Winter"], ["economy"]).
+%flight(["Oporto"], ["Madrid"], ["500"], ["Winter"], ["executive"]).
+%flight(["Oporto"], ["Madrid"], ["250"], ["Autumn"], ["economy"]).
+%flight(["Oporto"], ["Madrid"], ["500"], ["Autumn"], ["executive"]).
 
-
+:- [database].
 
 % Sabe (From, To, Season )quando quer ir e quer saber os preços (Price, Class)
 
