@@ -65,7 +65,7 @@ sheet3.write(0, 2, "Type")
 sheet3.write(0, 3, "Price")
 for t in countries:
     for s in seasons:
-        price = random.uniform(100,300)
+        price = random.uniform(10,60)
         for c in accomodation_type:
             
             if f != t:
